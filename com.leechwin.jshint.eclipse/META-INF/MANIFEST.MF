@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Eclipse
+Bundle-Name: jshint eclipse plugin
 Bundle-SymbolicName: com.leechwin.jshint.eclipse;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.leechwin.jshint.eclipse.Activator

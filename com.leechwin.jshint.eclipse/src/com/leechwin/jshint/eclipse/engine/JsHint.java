@@ -166,4 +166,5 @@ public class JsHint {
     public void resetOptions() {
         options.clear();
     }
+
 }

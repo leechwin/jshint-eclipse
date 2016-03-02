@@ -1,9 +1,7 @@
 package com.leechwin.jshint.eclipse.engine;
 
-
 /**
  * A single issue with the code that is being checked for problems.
- *
  * @author leechwin1@gmail.com
  */
 public class Issue {

@@ -209,4 +209,5 @@ public class JsHintBuilder extends IncrementalProjectBuilder {
     private void logProgress(IProgressMonitor monitor, IResource resource) {
         monitor.subTask("Linting " + resource.getName());
     }
+
 }

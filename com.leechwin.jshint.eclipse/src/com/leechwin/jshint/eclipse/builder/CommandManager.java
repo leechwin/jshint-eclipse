@@ -52,4 +52,5 @@ public class CommandManager {
         desc.setBuildSpec(commands.toArray(new ICommand[commands.size()]));
         project.setDescription(desc, null);
     }
+
 }

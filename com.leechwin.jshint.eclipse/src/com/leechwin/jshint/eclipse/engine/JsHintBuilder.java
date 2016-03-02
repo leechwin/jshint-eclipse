@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.nio.charset.Charset;
-import java.util.concurrent.TimeUnit;
 
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.ContextFactory;
@@ -101,23 +100,4 @@ public class JsHintBuilder {
         }
     }
 
-    /**
-     * Set this lint instance to time out after maxTimeInSeconds.
-     * @param maxTimeInSeconds maximum execution time in seconds.
-     * @return this
-     */
-    public JsHintBuilder timeout(long maxTimeInSeconds) {
-        return timeout(maxTimeInSeconds, TimeUnit.SECONDS);
-    }
-
-    /**
-     * Set this lint instance to timeout after maxTime.
-     * @param maxTime The maximum execution time.
-     * @param timeUnit The unit of maxTime.
-     * @return this
-     */
-    public JsHintBuilder timeout(long maxTime, TimeUnit timeUnit) {
-        contextFactory = new TimeLimitedContextFactory(maxTime, timeUnit);
-        return this;
-    }
 }
