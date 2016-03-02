@@ -1,7 +1,6 @@
 /*
  * Issue: https://github.com/jshint/jshint/issues/2308
  * Patch: https://github.com/cscott/jshint/commit/f63e45a0b9d6e8436acf069e784c096294b1c1f5
- * Author: ChangHyun Lee <leechwin.lee@samsung.com>
  */
 var global = this;
 /*! 2.9.1 */
